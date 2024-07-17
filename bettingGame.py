@@ -5,7 +5,7 @@
 
 import random
 MAX_LINES = 3           #declaring global object/constant to prevent changing the variable everywhere used when we want to change the value
-
+MAX_GUESS = 5           #define max guess number 
 def deposit():
     while True:
         amount = input("How much would you like to Deposit? $ ")            #amount to keep track of deposit amount
@@ -80,18 +80,18 @@ def checkGuess(yourGuess,realGuess,balance,total_bet):              #to check if
     return balance
 
 def generateNum(balance,total_bet):                         
-    realGuess = random.randint(1,10)                #generates a number in the given range
+    realGuess = random.randint(1,MAX_GUESS)                #generates a number in the given range
     #print(realGuess)                                #only for functionality check
-    yourGuess = input("Enter your guess(1-10):\n ")          #to store the guess value of user
+    yourGuess = input(f"Enter your guess(1-{MAX_GUESS}):\n ")          #to store the guess value of user
     if yourGuess.isdigit():
         yourGuess = int(yourGuess)
         if yourGuess < 11 and yourGuess > 0 :
             balance = checkGuess(yourGuess,realGuess,balance,total_bet)
         else:
-            yourGuess = print("Please enter a number in the range (1-10):\n ")
+            yourGuess = print(f"Please enter a number in the range (1-{MAX_GUESS}):\n ")
             balance = checkGuess(yourGuess,realGuess)
     else:
-        yourGuess = print("Please Enter a number(1-10):\n ")
+        yourGuess = print(f"Please Enter a number(1-{MAX_GUESS}):\n ")
         balance = checkGuess(yourGuess,realGuess)
     return balance
 
