@@ -59,4 +59,4 @@ Thank you for playing!
 Swati Bhat
 
 **Acknowledgments:**
-Inspired by [Python Project - Betting Game](https://youtu.be/th4OBktqK1I?si=x_t95nSc68xiGV80)
+[Python Project - Betting Game](https://youtu.be/th4OBktqK1I?si=x_t95nSc68xiGV80)
