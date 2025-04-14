@@ -69,7 +69,7 @@ This project is a text-based slot machine game built using Python. It simulates 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/slot-machine-game.git
+   git clone https://github.com/Swati-bs/slot-machine-game.git
    cd slot-machine-game
    ```
 
@@ -104,7 +104,7 @@ This project is a text-based slot machine game built using Python. It simulates 
 ### Installing
 1. Clone the repository using the command:
    ```bash
-   git clone https://github.com/yourusername/slot-machine-game.git
+   git clone https://github.com/Swati-bs/slot-machine-game.git
    ```
 2. Navigate to the project directory:
    ```bash
